@@ -1,0 +1,737 @@
+@charset "UTF-8";
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before {
+  content: '';
+  content: none;
+}
+
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.icon-actions {
+  width: 0.88em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-activities {
+  width: 0.78em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-agenda-big {
+  width: 1.05em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-agenda {
+  width: 1.05em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-alert {
+  width: 1.22em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-appoinments-big {
+  width: 1.36em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-appointments {
+  width: 1.33em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-arrow-left {
+  width: 0.89em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-arrow-left2 {
+  width: 0.49em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-arrow-right {
+  width: 0.82em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-arrow-right2 {
+  width: 0.49em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-arrow_drop_down {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-attach {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-attachment {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-bag {
+  width: 1.13em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-bessemer {
+  width: 1.27em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-adden {
+  width: 0.93em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-appointments {
+  width: 1.33em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-calls {
+  width: 0.86em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-comment {
+  width: 1.25em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-journal {
+  width: 1.43em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-list {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-preview {
+  width: 1.23em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-blue-tv {
+  width: 0.93em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-calendar {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-calls-big {
+  width: 0.89em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-calls {
+  width: 0.86em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-check {
+  width: 1.05em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-checkmark {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-chevron-big {
+  width: 0.52em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-chronometer {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-clock {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-close-thin {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-close {
+  width: 0.79em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-contract--grey {
+  width: 0.87em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-contract {
+  width: 0.83em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-contract2 {
+  width: 0.94em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-doors {
+  width: 0.83em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-download {
+  width: 0.74em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-email {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-eye {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-flag {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-house {
+  width: 1.2em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-journal {
+  width: 1.43em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-location {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-logo-mini {
+  width: 0.97em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-logo {
+  width: 4.32em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-maps-big {
+  width: 0.64em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-maps {
+  width: 0.65em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-menu {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-note {
+  width: 1.08em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-paper-plane {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-pencil-big {
+  width: 1.1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-pencil-feed {
+  width: 1.11em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-pencil {
+  width: 1.05em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-phone {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-photo {
+  width: 1.18em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-picture {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-platen {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-plus {
+  width: 0.79em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-preview {
+  width: 1.23em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-projects-big {
+  width: 1.07em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-projects {
+  width: 1.07em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-reports-big {
+  width: 0.95em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-reports {
+  width: 0.94em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-roof {
+  width: 1.73em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-schedule-big {
+  width: 1.05em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-schedule {
+  width: 1.06em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-search {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-send {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-settings {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-shower {
+  width: 0.81em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-smile {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-star {
+  width: 0.93em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-tick {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-trash {
+  width: 0.79em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-turn-on {
+  width: 0.88em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-tv {
+  width: 0.95em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-view {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-wave {
+  width: 1.36em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-weather {
+  width: 1.38em;
+  height: 1em;
+  fill: initial;
+}
+
+.icon-world {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+
+:root {
+  font-family: "Hind", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+:root * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: "Hind", Arial, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding-top: 50px;
+  }
+}
+
+.wrapper .icon {
+  transition: all .2s ease;
+}
+
+.wrapper a {
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.wrapper a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.account__avatar {
+  width: 37px;
+  height: 37px;
+  margin-right: 13px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.account__avatar img {
+  display: block;
+  width: 100%;
+}
+
+.content__footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin-top: 5%;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .content__footer {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.content__footer .footer__logo-link {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.content__footer .footer__logo-link img {
+  display: block;
+  width: 98px;
+  height: 23px;
+}
+
+.content__footer .footer__title {
+  font-size: 13.1px;
+  color: #cfd0d6;
+}
